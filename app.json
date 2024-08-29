@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subpackages": [
+    {
+      "root": "package-a",
+      "pages": [
+        "index/index"
+      ]
+    },
+    {
+      "root": "package-b",
+      "pages": [
+        "index/index"
+      ]
+    },
+    {
+      "root": "package-c",
+      "pages": [
+        "index/index"
+      ]
+    },
+    {
+      "root": "package-d",
+      "pages": [
+        "index/index"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "主页",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

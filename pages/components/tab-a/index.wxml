@@ -1,0 +1,1 @@
+<view class="tab-a" bindtap="goPackage">tab-a</view>

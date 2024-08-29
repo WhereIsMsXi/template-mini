@@ -1,0 +1,7 @@
+@import "/static/wxss/color_ui.wxss";
+@import "/static/wxss/color_ui_icon.wxss";
+page {
+  width: 100%;
+  height: 100%;
+  background-color: #f6f5fa;
+}

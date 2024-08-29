@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "tab-a": "../components/tab-a/index",
+    "tab-b": "../components/tab-b/index",
+    "tab-c": "../components/tab-c/index",
+    "tab-d": "../components/tab-d/index",
+    "clo-login-flow": "../../components/login-flow/login-flow"
+  },
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "主页", 
+  "navigationBarTextStyle": "black", 
+  "disableScroll": true
+}

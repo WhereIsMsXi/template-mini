@@ -1,0 +1,25 @@
+{
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "h5 跳转详情页",
+          "pathName": "package-a/pages/goods/detail-by-h5/index",
+          "query": "commodity=Com20211027091036_4567",
+          "scene": null
+        },
+        {
+          "name": "详情",
+          "pathName": "package-a/pages/goods/detail/index",
+          "query": "company=Com20181218124335_7083",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "projectname": "template-mini",
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html"
+}

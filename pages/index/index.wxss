@@ -1,0 +1,11 @@
+.menu-txte {
+  font-size: 22rpx;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+}
+.black {
+  color: rgba(79, 47, 15, 1);
+}
+.blue {
+  color: #2fd1e0;
+}

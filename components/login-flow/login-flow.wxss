@@ -1,0 +1,7 @@
+@import "/static/wxss/color_ui.wxss";
+
+.bindphone-button__left {
+  border: 2rpx solid #eee;
+  height: 64rpx;
+  border-radius: 8rpx;
+}

@@ -1,0 +1,29 @@
+<tab-a wx:if="{{currentTabbar === 'tab-a'}}"></tab-a>
+<tab-b wx:if="{{currentTabbar === 'tab-b'}}"></tab-b>
+<tab-c wx:if="{{currentTabbar === 'tab-c'}}"></tab-c>
+<tab-d wx:if="{{currentTabbar === 'tab-d'}}"></tab-d>
+<!-- tabbar -->
+<view class="nav-index cu-bar tabbar bg-white shadow foot">
+  <view
+    class="action"
+    bindtap="changeTabbar"
+    data-current="{{item.name}}"
+    wx:for="{{tabbars}}"
+    wx:key="index"
+  >
+    <view class='cuIcon-cu-image'>
+      <image
+        src="{{item.imgPrefix}}{{currentTabbar === item.name?'-current':''}}@2x.png"
+      ></image>
+    </view>
+    <view 
+      class="menu-txte {{currentTabbar === item.name?'blue':'black'}}"
+    >{{ item.title }}</view>
+  </view>
+    
+  <!-- login -->
+  <clo-login-flow 
+    id="loginFlow" 
+    bind:callBackFn="loadData" 
+  ></clo-login-flow>
+</view>
